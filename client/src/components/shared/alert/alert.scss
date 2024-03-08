@@ -1,0 +1,35 @@
+@import '../../../sass/reset';
+@import '../../../sass/variables';
+@import '../../../sass/mixins';
+@import '../../../sass/utilities';
+@import '../../../sass/animations';
+@import '../../../sass/form';
+
+
+// alerts 
+.alert {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    opacity: 0.9;   
+    text-align: center;
+    animation: vertical-shake 0.9s ;
+
+    &-primary {
+        @include setBackground($primary-color);
+    }
+    &-secondary {
+        @include setBackground($secondary-color);
+    }
+
+    &-success {
+        @include setBackground($success-color);
+        color: $dark-color;
+    }
+    &-danger {
+        @include setBackground($danger-color);
+     
+    }
+}

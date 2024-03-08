@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://stoyann:EIegaBxZAIj6Wdey@cluster0.uledvgy.mongodb.net/krysto_social?retryWrites=true&w=majority&appName=Cluster0",
+    "jwtSecret": "sdklhfsdiuxcbslsjdhfkjyhsdfbfkjsTVSQLAB9321749238749832"
+}
+
+
